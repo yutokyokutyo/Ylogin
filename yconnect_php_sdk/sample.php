@@ -1,7 +1,7 @@
 <?php
 
 // YConnectライブラリ読み込み
-require("YConnect.inc");
+require("lib/YConnect.inc");
 
 // アプリケーションID, シークレッvト
 $client_id     = "YOUR_APPLICATION_ID";
