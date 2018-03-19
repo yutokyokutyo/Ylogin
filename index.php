@@ -1,2 +1,2 @@
 <?php
-echo hoge;
+include("./index.html");
