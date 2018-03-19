@@ -4,8 +4,8 @@
 require("lib/YConnect.inc");
 
 // アプリケーションID, シークレッvト
-$client_id     = "YOUR_APPLICATION_ID";
-$client_secret = "YOUR_SECRET";
+$client_id     = "dj00aiZpPWxiQ1ZHd2V6YktudiZzPWNvbnN1bWVyc2VjcmV0Jng9ODI-";
+$client_secret = "mcOdqQEllq3lF3BOaoy31wQFRmy5VyYkwIllqFZ9";
 
 // 各パラメータ初期化
 $redirect_uri = "http://" . $_SERVER["SERVER_NAME"] . $_SERVER["PHP_SELF"];
