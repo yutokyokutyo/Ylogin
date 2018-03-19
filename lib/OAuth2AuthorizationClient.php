@@ -77,6 +77,8 @@ class OAuth2AuthorizationClient
 
         YConnectLogger::info( "authorization request(" . get_class() . "::" . __FUNCTION__ . ")", $request_uri );
 
+        var_dump($request_uri);
+        exit;
         header( "Location: " . $request_uri );
         exit();
     }
