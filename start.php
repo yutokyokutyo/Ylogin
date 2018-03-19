@@ -31,6 +31,8 @@ $prompt = array(
 );
  
 // クレデンシャルインスタンス生成
+var_dump($client_id);
+exit;
 $cred = new ClientCredential( $client_id, $client_secret );
 // YConnectクライアントのインスタンス生成
 $client = new YConnectClient( $cred );
