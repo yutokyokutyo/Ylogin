@@ -9,7 +9,7 @@ $client_id     = "dj00aiZpPXE3Y1BNSGJhVmU1ZiZzPWNvbnN1bWVyc2VjcmV0Jng9YzU-";
 $client_secret = "b1gqERWZ2gabYnzIOW9DmwYLNdEXbCIYgPbSgBY0";
  
 // コールバックURL...(3)
-$callback_uri = "http://frozen-reef-73565.herokuapp.com/signup.php";
+$callback_uri = "https://frozen-reef-73565.herokuapp.com/signup.php";
 // リクエストとコールバック間の検証用のランダムな文字列を指定してください...(4)
 $state = "44Oq44Ki5YWF44Gr5L+644Gv44Gq44KL77yB";
 // リプレイアタック対策のランダムな文字列を指定してください...(5)
